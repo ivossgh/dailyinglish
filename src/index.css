@@ -1,0 +1,205 @@
+/* ==========================================================
+   DailyInglish: estilos globais do site
+   ========================================================== */
+
+
+/* ---------- 1. VARIÁVEIS (as "constantes" do site) ---------- */
+:root {
+  /* Paleta original (os nomes que o Lory usa) */
+  --yellow: #ffc83d;
+  --yellow-soft: #fff3c4;
+  --coral: #f87553;
+  --coral-soft: #ffe5dc;
+  --coral-dark: #af3f25;
+  --teal: #176b70;
+  --teal-soft: #dcefed;
+  --ink: #17383a;
+  --muted: #5a6d6d;
+  --paper: #fcfaf5;
+  --surface: #ffffff;
+  --line: #e8e4da;
+
+  /* Apelidos por função (usamos estes nas páginas) */
+  --cor-primaria: var(--coral);
+  --cor-primaria-texto: var(--coral-dark);
+  --cor-destaque: var(--yellow);
+  --cor-apoio: var(--teal);
+  --cor-texto: var(--ink);
+  --cor-texto-suave: var(--muted);
+  --cor-fundo: var(--paper);
+  --cor-cartao: var(--surface);
+  --cor-borda: var(--line);
+
+  /* Fontes */
+  --fonte-titulo: "Nunito", sans-serif;
+  --fonte-corpo: "DM Sans", sans-serif;
+
+
+  /* Medidas e sombra */
+  --raio-botao: 14px;
+  --raio-cartao: 22px;
+  --largura-max: 1000px;
+  --sombra: 0 12px 34px rgba(31, 65, 64, 0.09);
+}
+
+/* ---------- 2. BASE ---------- */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: var(--fonte-corpo);
+  line-height: 1.6;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--fonte-titulo);
+  line-height: 1.15;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: clamp(2rem, 6vw, 3.2rem);
+  letter-spacing: -0.03em;
+  margin-bottom: 0.8rem;
+}
+
+h2 {
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  margin-bottom: 0.7rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+a {
+  color: var(--cor-apoio);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Foco visível para quem navega pelo teclado */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--cor-apoio);
+  outline-offset: 3px;
+}
+
+/* ---------- 3. PEÇAS REUTILIZÁVEIS ---------- */
+.container {
+  width: min(100% - 32px, var(--largura-max));
+  margin: 0 auto;
+}
+
+.eyebrow {
+  color: var(--cor-primaria-texto);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+}
+
+.texto-suave {
+  color: var(--cor-texto-suave);
+}
+
+.botao {
+  min-height: 48px;
+  padding: 0 22px;
+  border: 0;
+  border-radius: var(--raio-botao);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.botao:hover {
+  transform: translateY(-1px);
+}
+
+.botao-primario {
+  background: var(--cor-primaria);
+  color: var(--cor-texto);
+  box-shadow: 0 8px 18px rgba(248, 117, 83, 0.25);
+}
+
+.botao-secundario {
+  background: var(--cor-cartao);
+  color: var(--cor-texto);
+  border: 1px solid var(--cor-borda);
+}
+
+.cartao {
+  background: var(--cor-cartao);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-cartao);
+  padding: 20px;
+}
+
+.cartao-amarelo {
+  background: var(--yellow-soft);
+  border-color: transparent;
+}
+
+.cartao-menta {
+  background: var(--teal-soft);
+  border-color: transparent;
+}
+
+/* ---------- 4. LORY (tamanhos usados pelo componente) ---------- */
+.lory {
+  display: block;
+  flex: none;
+  filter: drop-shadow(0 8px 8px rgba(20, 60, 60, 0.08));
+}
+
+.lory-sm {
+  width: 74px;
+  height: 74px;
+}
+
+.lory-md {
+  width: 124px;
+  height: 124px;
+}
+
+.lory-lg {
+  width: 170px;
+  height: 170px;
+}
+
+/* ---------- 5. RESPEITAR QUEM PEDE MENOS ANIMAÇÃO ---------- */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}

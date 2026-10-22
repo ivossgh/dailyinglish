@@ -1,0 +1,54 @@
+/* ---------- Formulário incorporado ---------- */
+.secao-formulario {
+  margin-top: 8px;
+}
+
+.formulario-caixa {
+  padding: 8px;
+  max-width: 44rem;
+}
+
+.formulario-iframe {
+  display: block;
+  width: 100%;
+  height: 1050px;
+  border: 0;
+  border-radius: 14px;
+}
+
+.formulario-alternativa {
+  margin: 10px 8px 6px;
+  font-size: 0.9rem;
+  color: var(--cor-texto-suave);
+}
+
+.formulario-pendente {
+  margin: 16px;
+}
+
+/* ---------- Privacidade ---------- */
+.privacidade {
+  margin-top: 56px;
+  scroll-margin-top: 150px;
+}
+
+.privacidade-intro,
+.privacidade-texto {
+  max-width: 44rem;
+}
+
+.privacidade-texto h3 {
+  margin: 24px 0 6px;
+  font-size: 1.1rem;
+}
+
+.privacidade-texto p {
+  margin-bottom: 0;
+}
+
+/* ---------- Telas maiores ---------- */
+@media (min-width: 760px) {
+  .privacidade {
+    scroll-margin-top: 100px;
+  }
+}

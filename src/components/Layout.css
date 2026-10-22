@@ -1,0 +1,5 @@
+/* ---------- Área principal (onde cada página aparece) ---------- */
+.conteudo-principal {
+  min-height: 60vh;
+  padding: 40px 0;
+}

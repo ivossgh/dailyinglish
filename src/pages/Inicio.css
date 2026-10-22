@@ -1,0 +1,112 @@
+/* ---------- Hero ---------- */
+.hero {
+  display: grid;
+  gap: 24px;
+  align-items: center;
+  padding-bottom: 28px;
+}
+
+.hero-lead {
+  font-size: 1.15rem;
+  max-width: 36rem;
+}
+
+.hero-botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.hero-lory {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-lory .lory {
+  width: min(70vw, 240px);
+  height: auto;
+  aspect-ratio: 1;
+}
+
+/* ---------- Aviso ---------- */
+.aviso {
+  padding: 16px 18px;
+  border-left: 5px solid var(--yellow);
+  border-radius: 12px;
+  background: var(--yellow-soft);
+  font-size: 0.95rem;
+}
+
+/* ---------- Seções ---------- */
+.secao {
+  margin-top: 48px;
+}
+
+.grade-praticas {
+  display: grid;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.pratica h3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0 6px;
+  font-size: 1.15rem;
+}
+
+.pratica p {
+  margin-bottom: 0;
+}
+
+.pratica-icone {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: var(--cor-cartao);
+  font-size: 1.5rem;
+}
+
+.cartao-coral {
+  background: var(--coral-soft);
+  border-color: transparent;
+}
+
+.selo {
+  padding: 3px 10px;
+  border-radius: 99px;
+  background: var(--teal-soft);
+  color: var(--teal);
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+/* ---------- Chamada final ---------- */
+.chamada-final {
+  margin-top: 48px;
+  text-align: center;
+  padding: 32px 20px;
+}
+
+.chamada-final p {
+  max-width: 32rem;
+  margin: 0 auto 20px;
+}
+
+/* ---------- Telas maiores ---------- */
+@media (min-width: 760px) {
+  .hero {
+    grid-template-columns: 1.3fr 1fr;
+    gap: 40px;
+    padding-top: 12px;
+  }
+
+  .grade-praticas {
+    grid-template-columns: 1fr 1fr;
+  }
+}

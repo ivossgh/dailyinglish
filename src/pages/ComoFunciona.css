@@ -1,0 +1,97 @@
+/* ---------- Topo da página ---------- */
+.pagina-topo {
+  max-width: 44rem;
+  margin-bottom: 40px;
+}
+
+.pagina-lead {
+  font-size: 1.15rem;
+}
+
+/* ---------- Cartões das práticas ---------- */
+.grade-detalhes {
+  display: grid;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.detalhe-titulo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0 12px;
+  font-size: 1.2rem;
+}
+
+.detalhe-rotulo {
+  display: block;
+  margin-bottom: 2px;
+  color: var(--cor-primaria-texto);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* ---------- Ciclo diário ---------- */
+.ciclo {
+  list-style: none;
+  max-width: 44rem;
+  margin: 20px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.ciclo li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-cartao);
+  background: var(--cor-cartao);
+}
+
+.ciclo p {
+  margin: 2px 0 0;
+  color: var(--cor-texto-suave);
+}
+
+.passo-numero {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--yellow);
+  color: var(--ink);
+  font-family: var(--fonte-titulo);
+  font-weight: 800;
+}
+
+.passo-titulo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--fonte-titulo);
+  font-size: 1.05rem;
+}
+
+/* ---------- Botões da chamada final ---------- */
+.chamada-botoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* ---------- Telas maiores ---------- */
+@media (min-width: 760px) {
+  .grade-detalhes {
+    grid-template-columns: 1fr 1fr;
+  }
+}

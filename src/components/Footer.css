@@ -1,0 +1,52 @@
+/* ---------- Rodapé ---------- */
+.rodape {
+  margin-top: 48px;
+  padding: 32px 0;
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.rodape-interno {
+  display: grid;
+  gap: 16px;
+}
+
+.rodape-marca {
+  margin: 0;
+  font-family: var(--fonte-titulo);
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: var(--yellow);
+}
+
+.rodape-aviso,
+.rodape-legal {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--teal-soft);
+}
+
+.rodape-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+}
+
+.rodape-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--paper);
+  font-weight: 600;
+}
+
+.rodape-links a:hover {
+  color: var(--yellow);
+}
+
+.rodape a:focus-visible {
+  outline-color: var(--yellow);
+}

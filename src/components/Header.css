@@ -1,0 +1,108 @@
+/* ---------- Cabeçalho ---------- */
+.cabecalho {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--cor-fundo);
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.cabecalho-interno {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 0;
+}
+
+/* ---------- Marca (Lory + nome) ---------- */
+.marca {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+  text-decoration: none;
+}
+
+.marca .lory {
+  width: 48px;
+  height: 48px;
+  filter: none;
+}
+
+.marca-nome {
+  font-family: var(--fonte-titulo);
+  font-weight: 800;
+  font-size: 1.4rem;
+  letter-spacing: -0.02em;
+}
+
+.marca-daily {
+  color: var(--coral);
+}
+
+.marca-inglish {
+  color: var(--teal);
+}
+
+/* ---------- Menu ---------- */
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+}
+
+.menu a:not(.botao) {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 10px;
+  border-radius: 12px;
+  color: var(--cor-texto);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.menu a:not(.botao):hover {
+  background: var(--teal-soft);
+}
+
+/* Página atual: fundo amarelo claro e sublinhado coral */
+.menu a[aria-current="page"] {
+  background: var(--yellow-soft);
+  box-shadow: inset 0 -3px 0 var(--coral);
+}
+
+.menu-botao {
+  min-height: 44px;
+  padding: 0 16px;
+}
+
+/* ---------- Link "pular para o conteúdo" ---------- */
+.pular-link {
+  position: absolute;
+  left: -9999px;
+  top: 8px;
+  z-index: 30;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.pular-link:focus {
+  left: 8px;
+}
+
+/* ---------- Telas maiores: tudo na mesma linha ---------- */
+@media (min-width: 760px) {
+  .cabecalho-interno {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+}
