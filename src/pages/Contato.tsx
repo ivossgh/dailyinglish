@@ -15,7 +15,7 @@ function Contato() {
         <h1>Entre na lista de espera</h1>
 
         <p className="pagina-lead">
-          Deixe seu e-mail para acompanhar o DailyInglish. O aplicativo ainda está em
+          Deixe seu e-mail para acompanhar o DailyEnglish. O aplicativo ainda está em
           desenvolvimento, então não há nada para baixar por enquanto.
         </p>
 
@@ -25,7 +25,7 @@ function Contato() {
         >
           <strong>O que acontece depois:</strong>{' '}
           Você poderá receber avisos sobre novidades importantes e sobre o
-          lançamento do DailyInglish. Você pode pedir para sair da lista a
+          lançamento do DailyEnglish. Você pode pedir para sair da lista a
           qualquer momento pelo contato indicado na seção de privacidade abaixo.
         </aside>
       </header>
@@ -41,7 +41,7 @@ function Contato() {
           <iframe
             className="formulario-iframe"
             src={URL_FORMULARIO}
-            title="Formulário da lista de espera do DailyInglish"
+            title="Formulário da lista de espera do DailyEnglish"
             width="100%"
             height="1201"
             frameBorder="0"
@@ -81,7 +81,7 @@ function Contato() {
           <h3>Quem é o responsável</h3>
           <p>
             O responsável pelos dados é Ivo Silva, criador do
-            projeto DailyInglish. Contato para assuntos de privacidade:
+            projeto DailyEnglish. Contato para assuntos de privacidade:
             gestorivosilva@gmail.com.
           </p>
 
@@ -94,7 +94,7 @@ function Contato() {
 
           <h3>Para que usamos</h3>
           <p>
-            Apenas para avisar você sobre novidades do DailyInglish e
+            Apenas para avisar você sobre novidades do DailyEnglish e
             entender quantas pessoas têm interesse no projeto. Não usamos
             seus dados para outra finalidade.
           </p>

@@ -59,7 +59,7 @@ function Sobre() {
       {/* ---------- 1. Topo ---------- */}
       <header className="pagina-topo">
         <p className="eyebrow">Sobre o projeto</p>
-        <h1>Por que o DailyInglish existe</h1>
+        <h1>Por que o DailyEnglish existe</h1>
         <p className="pagina-lead">
           Uma ideia simples: aprender inglês funciona melhor com constância, e constância fica mais
           fácil quando a prática diária é variada, leve e acompanhada.
@@ -76,7 +76,7 @@ function Sobre() {
             de palavras tem dificuldade para usá-las.
           </p>
           <p>
-            O DailyInglish nasceu da proposta de reunir, em um só lugar e em uma rotina diária,
+            O DailyEnglish nasceu da proposta de reunir, em um só lugar e em uma rotina diária,
             leitura, escrita, vocabulário e conversação. Quem acompanha o estudo é o Lory, um
             papagaio original, o mascote do projeto.
           </p>
@@ -93,7 +93,7 @@ function Sobre() {
         <p className="eyebrow">Em que o projeto se apoia</p>
         <h2>Quatro princípios de aprendizado de línguas</h2>
         <p className="sobre-intro">
-          O DailyInglish se inspira em ideias bastante conhecidas no estudo de segundas línguas.
+          O DailyEnglish se inspira em ideias bastante conhecidas no estudo de segundas línguas.
           Cada uma delas virou uma prática do app.
         </p>
 
@@ -110,7 +110,7 @@ function Sobre() {
         </div>
 
         <aside className="aviso" aria-label="Aviso sobre resultados">
-          Esses princípios inspiram o projeto, mas o DailyInglish ainda não foi testado com
+          Esses princípios inspiram o projeto, mas o DailyEnglish ainda não foi testado com
           usuários e não promete resultados específicos.{' '}
           
         </aside>
@@ -119,10 +119,10 @@ function Sobre() {
       {/* ---------- 4. Quem está por trás ---------- */}
       <section className="secao">
         <p className="eyebrow">Quem está por trás</p>
-        <h2>Quem faz o DailyInglish</h2>
+        <h2>Quem faz o DailyEnglish</h2>
         <div className="cartao autor">
           <p>
-            O DailyInglish é criado por{' '}
+            O DailyEnglish é criado por{' '}
             <mark className="preencher">Ivo SIlva</mark>, estudante de Análise e
             Desenvolvimento de Sistemas e desenvolvedor backend em formação.
           </p>

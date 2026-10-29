@@ -8,29 +8,29 @@ type DadosDaPagina = {
 
 const paginas: Record<string, DadosDaPagina> = {
   '/': {
-    titulo: 'DailyInglish | Pratique inglês todos os dias',
+    titulo: 'DailyEnglish | Pratique inglês todos os dias',
     descricao:
       'Projeto de app para praticar inglês todos os dias: diário de escrita, histórias por nível, vocabulário e conversação. Em desenvolvimento. Entre na lista de espera.',
   },
   '/como-funciona': {
-    titulo: 'Como funciona | DailyInglish',
+    titulo: 'Como funciona | DailyEnglish',
     descricao:
-      'Conheça as quatro práticas do DailyInglish (diário, histórias, vocabulário e conversação por voz) e como pode ser um dia de estudo.',
+      'Conheça as quatro práticas do DailyEnglish (diário, histórias, vocabulário e conversação por voz) e como pode ser um dia de estudo.',
   },
   '/sobre': {
-    titulo: 'Sobre o projeto | DailyInglish',
+    titulo: 'Sobre o projeto | DailyEnglish',
     descricao:
-      'Por que o DailyInglish existe, os princípios de aprendizado de línguas em que se apoia, quem faz o projeto e em que fase ele está.',
+      'Por que o DailyEnglish existe, os princípios de aprendizado de línguas em que se apoia, quem faz o projeto e em que fase ele está.',
   },
   '/contato': {
-    titulo: 'Lista de espera e privacidade | DailyInglish',
+    titulo: 'Lista de espera e privacidade | DailyEnglish',
     descricao:
-      'Entre na lista de espera do DailyInglish para acompanhar as novidades do projeto e leia o aviso de privacidade.',
+      'Entre na lista de espera do DailyEnglish para acompanhar as novidades do projeto e leia o aviso de privacidade.',
   },
 }
 
 const paginaNaoEncontrada: DadosDaPagina = {
-  titulo: 'Página não encontrada | DailyInglish',
+  titulo: 'Página não encontrada | DailyEnglish',
   descricao: 'A página que você procura não existe.',
 }
 

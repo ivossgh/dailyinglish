@@ -16,11 +16,11 @@ function Header() {
       </a>
 
       <div className="cabecalho-interno container">
-        <Link className="marca" to="/" aria-label="DailyInglish, página inicial">
+        <Link className="marca" to="/" aria-label="DailyEnglish, página inicial">
           <Lory size="sm" />
           <span className="marca-nome">
             <span className="marca-daily">Daily</span>
-            <span className="marca-inglish">Inglish</span>
+            <span className="marca-inglish">English</span>
           </span>
         </Link>
 

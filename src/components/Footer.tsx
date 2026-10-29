@@ -7,10 +7,10 @@ function Footer() {
   return (
     <footer className="rodape">
       <div className="rodape-interno container">
-        <p className="rodape-marca">DailyInglish</p>
+        <p className="rodape-marca">DailyEnglish</p>
 
         <p className="rodape-aviso">
-          O DailyInglish é um projeto em desenvolvimento. O aplicativo ainda não foi lançado.
+          O DailyEnglish é um projeto em desenvolvimento. O aplicativo ainda não foi lançado.
         </p>
 
         <ul className="rodape-links">
@@ -21,7 +21,7 @@ function Footer() {
         </ul>
 
         <p className="rodape-legal">
-          © {ano} DailyInglish. Contato: gestorivosilva@gmail.com
+          © {ano} DailyEnglish. Contato: gestorivosilva@gmail.com
         </p>
       </div>
     </footer>

@@ -43,7 +43,7 @@ function Inicio() {
           <p className="eyebrow">-</p>
           <h1>Inglês todos os dias, do seu jeito</h1>
           <p className="hero-lead">
-            O DailyInglish junta escrita, leitura, vocabulário e conversação em uma rotina
+            O DailyEnglish junta escrita, leitura, vocabulário e conversação em uma rotina
             diária, com a companhia do Lory, nosso papagaio mascote.
           </p>
 
@@ -93,7 +93,7 @@ function Inicio() {
 
       {/* ---------- 4. Chamada final ---------- */}
       <section className="chamada-final cartao cartao-amarelo">
-        <h2>Quer acompanhar o DailyInglish?</h2>
+        <h2>Quer acompanhar o DailyEnglish?</h2>
         <p>
           Deixe seu contato na lista de espera e acompanhe o projeto desde o início.
         </p>

@@ -73,7 +73,7 @@ function ComoFunciona() {
         <p className="eyebrow">Como funciona</p>
         <h1>Uma rotina diária, quatro práticas</h1>
         <p className="pagina-lead">
-          O DailyInglish combina quatro formas de praticar inglês que se completam: ler, escrever,
+          O DailyEnglish combina quatro formas de praticar inglês que se completam: ler, escrever,
           revisar palavras e falar. Abaixo, o que cada uma faz e por que ela ajuda.
         </p>
         <aside className="aviso" aria-label="Aviso sobre o estágio do projeto">
@@ -136,7 +136,7 @@ function ComoFunciona() {
       <section className="chamada-final cartao cartao-amarelo">
         <h2>Quer saber por que o projeto existe?</h2>
         <p>
-          Veja a ideia por trás do DailyInglish ou deixe seu contato para acompanhar as novidades.
+          Veja a ideia por trás do DailyEnglish ou deixe seu contato para acompanhar as novidades.
         </p>
         <div className="chamada-botoes">
           <Link className="botao botao-secundario" to="/sobre">
